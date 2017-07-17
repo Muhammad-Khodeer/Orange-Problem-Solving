@@ -1,0 +1,8 @@
+C:\Users\Mohamed\AppData\Local\Temporary Projects\ThunderBolt\bin\Debug\ThunderBolt.exe
+C:\Users\Mohamed\AppData\Local\Temporary Projects\ThunderBolt\bin\Debug\ThunderBolt.pdb
+C:\Users\Mohamed\AppData\Local\Temporary Projects\ThunderBolt\obj\x86\Debug\ThunderBolt.exe
+C:\Users\Mohamed\AppData\Local\Temporary Projects\ThunderBolt\obj\x86\Debug\ThunderBolt.pdb
+F:\orange\ThunderBolt\ThunderBolt\obj\x86\Debug\ThunderBolt.exe
+F:\orange\ThunderBolt\ThunderBolt\obj\x86\Debug\ThunderBolt.pdb
+F:\orange\ThunderBolt\ThunderBolt\bin\Debug\ThunderBolt.exe
+F:\orange\ThunderBolt\ThunderBolt\bin\Debug\ThunderBolt.pdb

@@ -1,0 +1,4 @@
+F:\orange\ThunderBolt\ThunderBolt\bin\Release\ThunderBolt.exe
+F:\orange\ThunderBolt\ThunderBolt\bin\Release\ThunderBolt.pdb
+F:\orange\ThunderBolt\ThunderBolt\obj\x86\Release\ThunderBolt.exe
+F:\orange\ThunderBolt\ThunderBolt\obj\x86\Release\ThunderBolt.pdb

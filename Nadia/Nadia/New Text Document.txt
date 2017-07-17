@@ -1,0 +1,71 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Nadia
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int testNum = int.Parse(Console.ReadLine());
+            string[] cases = new string[testNum];
+            
+
+
+            for (int i = 0; i < testNum; i++)
+            {
+                string text = Console.ReadLine();
+                bool Non = true, Noa = true, Nod = true, Noi = true, Noaa = true;
+                int[] older = new int[5];
+
+                for (int j = 0; j < text.Length; j++)
+                {
+                    if (text[j] == 'n' && Non)
+                    {
+                        older[0] = j;
+                        Non = false;
+                        continue;
+                    }
+                    if (text[j] == 'a' && Noa && !Non)
+                    {
+                        older[1] = j;
+                        Noa = false;
+                        continue;
+                    }
+                    if (text[j] == 'd' && Nod && !Noa)
+                    {
+                        older[2] = j;
+                        Nod = false;
+                        continue;
+                    }
+                    if (text[j] == 'i' && Noi && !Nod)
+                    {
+                        older[3] = j;
+                        Noi = false;
+                        continue;
+                    }
+                    if (text[j] == 'a' && Noaa && !Noi)
+                    {
+                        older[4] = j;
+                        Noaa = false;
+                        continue;
+                    }
+                }
+
+                cases[i] = "NO";
+                if (older[0] < older[1] && older[1] < older[2] && older[2] < older[3] && older[3] < older[4])
+                    cases[i] = "YES";
+            }
+
+            for (int i = 0; i < testNum; i++)
+                Console.WriteLine(cases[i]);
+
+            
+        }
+
+  
+    }
+}

@@ -1,0 +1,8 @@
+C:\Users\Mohamed\AppData\Local\Temporary Projects\work_hours\bin\Debug\work_hours.exe
+C:\Users\Mohamed\AppData\Local\Temporary Projects\work_hours\bin\Debug\work_hours.pdb
+C:\Users\Mohamed\AppData\Local\Temporary Projects\work_hours\obj\x86\Debug\work_hours.exe
+C:\Users\Mohamed\AppData\Local\Temporary Projects\work_hours\obj\x86\Debug\work_hours.pdb
+F:\orange\work_hours\work_hours\obj\x86\Debug\work_hours.exe
+F:\orange\work_hours\work_hours\obj\x86\Debug\work_hours.pdb
+F:\orange\work_hours\work_hours\bin\Debug\work_hours.exe
+F:\orange\work_hours\work_hours\bin\Debug\work_hours.pdb

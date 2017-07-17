@@ -1,0 +1,8 @@
+C:\Users\Mohamed\AppData\Local\Temporary Projects\Nadia\bin\Release\Nadia.exe
+C:\Users\Mohamed\AppData\Local\Temporary Projects\Nadia\bin\Release\Nadia.pdb
+C:\Users\Mohamed\AppData\Local\Temporary Projects\Nadia\obj\x86\Release\Nadia.exe
+C:\Users\Mohamed\AppData\Local\Temporary Projects\Nadia\obj\x86\Release\Nadia.pdb
+F:\orange\Nadia\Nadia\obj\x86\Release\Nadia.exe
+F:\orange\Nadia\Nadia\obj\x86\Release\Nadia.pdb
+F:\orange\Nadia\Nadia\bin\Release\Nadia.exe
+F:\orange\Nadia\Nadia\bin\Release\Nadia.pdb

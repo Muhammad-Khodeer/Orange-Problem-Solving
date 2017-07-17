@@ -1,0 +1,125 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ThunderBolt
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int testNum = int.Parse(Console.ReadLine());
+            int[] outputs = new int[testNum];
+
+            for (int i = 0; i < testNum; i++)
+            {
+                bool con1 = false, con2 = false, con3 = false, con4 = false; 
+                string taken = Console.ReadLine();
+                int start = int.Parse(taken.Split(' ')[0]);
+                int end = int.Parse(taken.Split(' ')[1]);
+
+                for (int j = start; j <= end; j++)
+                {
+                    if (j != 0 && j != 1)
+                        con1 = true;
+                    if (con1)
+                    {
+                        con2 = true;
+                        for (int a = 2; a <= j / 2; a++)
+                            if (j % a == 0)
+                                con2 = false;
+                    }
+                    if (con2)
+                    {
+                        string digits = j.ToString();
+                        int sum = 0;
+                        for (int k = 0; k < digits.Length; k++)
+                        {
+                            sum += (int)(digits[k] - '0');
+                        }
+                        if (sum != 0 && sum != 1)
+                            con3 = true;
+                        if (con3)
+                        {
+                            con4 = true;
+                            for (int a = 2; a <= j / 2; a++)
+                                if (sum % a == 0)
+                                    con4 = false;
+                        }
+                    }
+                    if (con4)
+                        outputs[i] += 1;
+
+                }
+            }
+
+            for (int i = 0; i < testNum; i++)
+                Console.WriteLine(outputs[i]);
+
+
+
+        }
+    }
+}
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ThunderBolt
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int testNum = int.Parse(Console.ReadLine());
+            int[] outputs = new int[testNum];
+
+            for (int i = 0; i < testNum; i++)
+            {
+                string taken = Console.ReadLine();
+                int start = int.Parse(taken.Split(' ')[0]);
+                int end = int.Parse(taken.Split(' ')[1]);
+
+                for (int j = start; j <= end; j++)
+                {
+                    if ((isPrime(j)) && isPrime(sumDigits(j)))
+                        outputs[i] += 1;
+                }
+            }
+
+            for (int i = 0; i < testNum; i++)
+                Console.WriteLine(outputs[i]);
+
+
+
+        }
+        // is prime method
+        static public Boolean isPrime(int num)
+        {
+            if (num == 0 || num == 1)
+                return false;
+
+            for (int a = 2; a <= num / 2; a++)
+                if (num % a == 0)
+                    return false;
+
+            return true;
+        }
+        // sum of digit methos
+        static public int sumDigits(int num)
+        {
+            string digits = num.ToString();
+            int sum = 0;
+            for (int j = 0; j < digits.Length; j++)
+            {
+                sum += (int)(digits[j] - '0');
+            }
+            return sum;
+        }
+    }
+}

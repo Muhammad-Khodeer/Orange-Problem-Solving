@@ -1,0 +1,4 @@
+F:\orange\work_hours\work_hours\bin\Release\work_hours.exe
+F:\orange\work_hours\work_hours\bin\Release\work_hours.pdb
+F:\orange\work_hours\work_hours\obj\x86\Release\work_hours.exe
+F:\orange\work_hours\work_hours\obj\x86\Release\work_hours.pdb
